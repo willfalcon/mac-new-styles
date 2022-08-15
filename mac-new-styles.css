@@ -1,0 +1,181 @@
+body {
+	--red: #E44331;
+	--pink: #E7808F;
+	--light-blue: #6DB7D8;
+	--blue: #007FC5;
+	--orange: #F79E1C;
+	--teal: #2D6372;
+	--green: #3A4C36;
+	--dark-green: #1B2B1C;
+	
+	--color-1: var(--red);
+	--color-2: var(--pink);
+	--color-3: var(--light-blue);
+	--color-4: var(--blue);
+	--color-5: var(--orange);
+}
+
+.branding .logo {
+	margin: 35px 0;
+}
+
+.branding .logo .logo__logo {
+	max-height: 100px;
+
+}
+
+/* Nav item ::afters */
+.mac-menu > ul > li.menu-item:nth-child(1) > a::after {
+	background: var(--color-1);
+}
+.mac-menu > ul > li.menu-item:nth-child(2) > a::after {
+	background: var(--color-2);
+}
+.mac-menu > ul > li.menu-item:nth-child(3) > a::after {
+	background: var(--color-3);
+}
+.mac-menu > ul > li.menu-item:nth-child(4) > a::after {
+	background: var(--color-4);
+}
+.mac-menu > ul > li.menu-item:nth-child(5) > a::after {
+	background: var(--color-5);
+}
+
+/* Active nav item backgrounds */
+.mac-menu > ul > li:nth-child(1).active {
+	background: var(--color-1);
+}.mac-menu > ul > li:nth-child(2).active {
+	background: var(--color-2);
+}.mac-menu > ul > li:nth-child(3).active {
+	background: var(--color-3);
+}.mac-menu > ul > li:nth-child(4).active {
+	background: var(--color-4);
+}.mac-menu > ul > li:nth-child(5).active {
+	background: var(--color-5);
+}
+
+/* Mega-menu backgrounds */
+.mac-menu > ul > li:nth-child(1) ul {
+	background: var(--color-1);
+}
+.mac-menu > ul > li:nth-child(1) .tagline1 {
+	background: var(--color-3);
+}.mac-menu > ul > li:nth-child(1) .tagline2 {
+	background: var(--color-4);
+}.mac-menu > ul > li:nth-child(1) .tagline3 {
+	background: var(--color-5);
+}
+
+.mac-menu > ul > li:nth-child(2) .mega-menu ul {
+	background: var(--color-2);
+}
+.mac-menu > ul > li:nth-child(2) .tagline1 {
+	background: var(--color-1);
+}.mac-menu > ul > li:nth-child(2) .tagline2 {
+	background: var(--color-4);
+}.mac-menu > ul > li:nth-child(2) .tagline3 {
+	background: var(--color-5);
+}
+
+.mac-menu > ul > li:nth-child(3) .mega-menu ul {
+	background: var(--color-3);
+}
+.mac-menu > ul > li:nth-child(3) .tagline1 {
+	background: var(--color-1);
+}.mac-menu > ul > li:nth-child(3) .tagline2 {
+	background: var(--color-2);
+}.mac-menu > ul > li:nth-child(3) .tagline3 {
+	background: var(--color-5);
+}
+
+.mac-menu > ul > li:nth-child(4) .mega-menu ul {
+	background: var(--color-4);
+}
+.mac-menu > ul > li:nth-child(4) .tagline1 {
+	background: var(--color-1);
+}.mac-menu > ul > li:nth-child(4) .tagline2 {
+	background: var(--color-2);
+}.mac-menu > ul > li:nth-child(4) .tagline3 {
+	background: var(--color-3);
+}
+
+.mac-menu > ul > li:nth-child(5) .mega-menu ul {
+	background: var(--color-5);
+}
+.mac-menu > ul > li:nth-child(5) .tagline1 {
+	background: var(--color-1);
+}.mac-menu > ul > li:nth-child(5) .tagline2 {
+	background: var(--color-2);
+}.mac-menu > ul > li:nth-child(5) .tagline3 {
+	background: var(--color-3);
+}
+
+/* Events Area */
+.featured-event {
+	background: var(--blue);
+}
+
+.upcoming-events {
+	background: var(--light-blue);
+}
+.upcoming-events .date {
+	color: var(--teal);
+}
+.upcoming-events .event-details h3 a{
+	color: var(--teal);
+}
+
+/* Footer background colors */
+
+.site-footer .footer-flex .footer-left {
+	background: var(--green);
+}
+.site-footer .footer-flex .footer-right {
+	background: var(--dark-green);
+}
+.site-footer .footer-flex .footer-right h4 {
+	color: var(--light-blue);
+}
+
+/* Page colors */
+
+.page .page-content h2 {
+	color: var(--teal);
+}
+
+.page .page-content .roster-section h2 {
+	color: white;
+}
+
+
+a {
+	color: var(--light-blue);
+}
+
+.gallery .gallery-item:nth-child(5n+1) .gallery-icon::after {
+	background: var(--color-1);
+}.gallery .gallery-item:nth-child(5n+2) .gallery-icon::after {
+	background: var(--color-2);
+}.gallery .gallery-item:nth-child(5n+3) .gallery-icon::after {
+	background: var(--color-3);
+}.gallery .gallery-item:nth-child(5n+4) .gallery-icon::after {
+	background: var(--color-4);
+}.gallery .gallery-item:nth-child(5n+5) .gallery-icon::after {
+	background: var(--color-5);
+}
+
+/* News and Search */
+
+.archive .search-term,
+.search .search-term {
+	color: var(--orange);
+}
+
+.archive .btn {
+	color: var(--blue);
+	border-color: var(--blue);
+}
+
+.single .meta {
+	background: var(--teal);
+}
