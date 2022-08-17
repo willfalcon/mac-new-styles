@@ -1,18 +1,25 @@
 body {
+	
 	--red: #E44331;
+	--red2: #C63F5A;
 	--pink: #E7808F;
+	--light-pink: #F8DAE0;
 	--light-blue: #6DB7D8;
 	--blue: #007FC5;
+	--blue2: #0097D6;
+	--alt-blue: #346988;
 	--orange: #F79E1C;
 	--teal: #2D6372;
 	--green: #3A4C36;
 	--dark-green: #1B2B1C;
-	
-	--color-1: var(--red);
-	--color-2: var(--pink);
+	--background-blue: #DFF0FA;
+	--dark: #1C2C1D;
+
+	--color-1: var(--blue);
+	--color-2: var(--red2);
 	--color-3: var(--light-blue);
-	--color-4: var(--blue);
-	--color-5: var(--orange);
+	--color-4: var(--pink);
+	--color-5: var(--blue2);
 
 	font-family: azo-sans-web, sans-serif;
 }
@@ -118,7 +125,7 @@ body {
 }
 
 .upcoming-events {
-	background: var(--light-blue);
+	background: var(--background-blue);
 }
 .upcoming-events .date {
 	color: var(--teal);
@@ -127,18 +134,38 @@ body {
 	color: var(--teal);
 }
 
+.subfeature-module .more {
+	color: var(--pink);
+}
+.flex-subfeatures {
+	/* background: var(--dark); */
+}
+
+.news.container-fluid .text-right a {
+	color: var(--red);
+}
+
 /* Footer background colors */
 
 .site-footer .footer-flex .footer-left {
-	background: var(--green);
+	background: var(--alt-blue);
+}
+.site-footer .footer-nav ul li a {
+	color: var(--light-pink);
+}
+.site-footer .footer-nav ul li a:hover {
+	color: var(--pink);
 }
 .site-footer .footer-flex .footer-right {
-	background: var(--dark-green);
+	background: var(--dark);
 }
 .site-footer .footer-flex .footer-right h4 {
 	color: var(--light-blue);
 }
 
+.site-footer .pre-footer .pre-footer-right {
+	background: var(--background-blue);
+}
 /* Page colors */
 
 .page .page-content h2 {
