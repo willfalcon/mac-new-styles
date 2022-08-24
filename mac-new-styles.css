@@ -137,9 +137,7 @@ body {
 .subfeature-module .more {
 	color: var(--pink);
 }
-.flex-subfeatures {
-	/* background: var(--dark); */
-}
+
 
 .news.container-fluid .text-right a {
 	color: var(--red);
@@ -166,6 +164,12 @@ body {
 .site-footer .pre-footer .pre-footer-right {
 	background: var(--background-blue);
 }
+
+.footer-left .footer-nav ul {
+	list-style: none;
+}
+
+
 /* Page colors */
 
 .page .page-content h2 {
